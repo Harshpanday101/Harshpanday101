@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 <!-- Intro  -->
 <h3 align="center">
         <samp>&gt; Hey There!, I am
-                <b><a target="_blank" href="https://pradeepsahu.in">Harsh Panday</a></b>
+                <b><a>Harsh Panday</a></b>
         </samp>
 </h3>
 

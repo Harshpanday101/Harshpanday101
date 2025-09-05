@@ -154,7 +154,7 @@ Want to Know More? See
 - I have been coding and building useful/helpful things from last 5 years well before i went into the college. I love to build and help others.
 - I am an expert typist as well as good enough problem solver, so you can expect any work given to me delivered well before/on time.
 
-## What is did in my college.
+## What I did in my college.
 
 - Development is the path of continuous Learning, we can never satisfy from our knowledge. our knowledge is worth only when we can create something. 
 - There is no perfect way, perfect answer, perfect life *and No Perfect Code*.

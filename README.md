@@ -16,7 +16,7 @@
 
 <br><br>
 
-<img src="https://komarev.com/ghpvc/?username=Harshpanday101&label=Profile%20Views&color=0e75b6&style=flat-square" alt="profile views" />
+<img src="https://hits.sh/github.com/Harshpanday101.svg?style=flat-square&label=Profile%20Views&color=0e75b6" alt="profile views" />
 <img src="https://img.shields.io/github/followers/Harshpanday101?label=Followers&style=flat-square&color=2c5364" />
 
 </div>

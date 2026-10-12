@@ -142,7 +142,7 @@ Want to Know More? See
 
 <h1 align="center"> Introduction </h1>
 
-<P>Namaste! My name is Harsh Panday, I'm 21, a computer science student 🧑‍💻 from Uttarakhand, India.  I design and make websites for Bussiness and Institutions</p>
+<P>Namaste! My name is Harsh Panday, I'm 23, a computer science Engineer 🧑‍💻 from Uttarakhand, India.  I design and make Robots for Industries</p>
 
 <h2 align="center"> What i believe in  <samp style="display: flex; justify-content: center; align-items: center;" height="200px" >
                 $${\color{green}Struggle == Development}$$

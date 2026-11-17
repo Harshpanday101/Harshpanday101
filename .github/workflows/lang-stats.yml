@@ -24,13 +24,13 @@ jobs:
           # to include private repos. Without it, only public repos are counted.
           GH_TOKEN: ${{ secrets.LANG_STATS_TOKEN || secrets.GITHUB_TOKEN }}
           INCLUDE_FORKS: "false"
-          EXCLUDE_LANGS: "Jupyter Notebook"   # comma-separated, edit as you like
+          EXCLUDE_LANGS: "Jupyter Notebook,Makefile,CMake,Shell,Dockerfile,Batchfile"   # comma-separated, edit as you like
         run: python scripts/lang_stats.py
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add assets/languages.svg
           git diff --cached --quiet || git commit -m "chore: update language stats"
           git push

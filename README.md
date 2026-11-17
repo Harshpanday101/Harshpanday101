@@ -30,7 +30,7 @@ class HarshPanday:
     role      = "Robotics Engineer @ AIMIL Ltd., New Delhi"
     based_in  = "India 🇮🇳 (from Uttarakhand)"
     education = "B.E. Computer Science, Chandigarh University (2026)"
-    focus     = ["Autonomous UAV/UGV", "Edge-AI Perception", "Multi-Agent Robotics"]
+    focus     = "Autonomous UAV/UGV", "Edge-AI Perception", "Multi-Agent Robotics"
     building  = "Rovers that inspect airport runways & robots that cooperate"
     patent    = "VEGA Flight Controller (App. No. 202311084811)"
     motto     = "Struggle == Development"

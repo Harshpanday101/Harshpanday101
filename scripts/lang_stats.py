@@ -6,6 +6,7 @@ third-party image server that can go down or hit rate limits.
 import json
 import os
 import re
+import urllib.error
 import urllib.request
 
 USER = os.environ.get("GH_USER", "Harshpanday101")
@@ -24,18 +25,28 @@ def api(url):
         return json.load(r)
 
 
-def list_repos():
-    repos, page = [], 1
+def fetch_pages(url_template):
+    items, page = [], 1
     while True:
-        if TOKEN:  # token lets us see private repos too
-            url = f"https://api.github.com/user/repos?per_page=100&page={page}&affiliation=owner"
-        else:
-            url = f"https://api.github.com/users/{USER}/repos?per_page=100&page={page}&type=owner"
-        chunk = api(url)
+        chunk = api(url_template.format(page=page))
         if not chunk:
             break
-        repos += chunk
+        items += chunk
         page += 1
+    return items
+
+
+def list_repos():
+    repos = None
+    if TOKEN:
+        # A personal token can list private repos too. The built-in GITHUB_TOKEN
+        # is not allowed to call this endpoint, so fall back to public repos.
+        try:
+            repos = fetch_pages("https://api.github.com/user/repos?per_page=100&page={page}&affiliation=owner")
+        except urllib.error.HTTPError as e:
+            print(f"Could not list private repos ({e.code}); using public repos only")
+    if repos is None:
+        repos = fetch_pages(f"https://api.github.com/users/{USER}/repos?per_page=100&page={{page}}&type=owner")
     return [r for r in repos if r["owner"]["login"].lower() == USER.lower()
             and (INCLUDE_FORKS or not r["fork"])]
 

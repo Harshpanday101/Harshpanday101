@@ -30,7 +30,7 @@ class HarshPanday:
     role      = "Robotics Engineer @ AIMIL Ltd., New Delhi"
     based_in  = "India 🇮🇳 (from Uttarakhand)"
     education = "B.E. Computer Science, Chandigarh University (2026)"
-    focus     = "Autonomous UAV/UGV", "Edge-AI Perception", "Multi-Agent Robotics"
+    focus     = ["Autonomous UAV/UGV", "Edge-AI Perception", "Multi-Agent Robotics"]
     building  = "Rovers that inspect airport runways & robots that cooperate"
     patent    = "VEGA Flight Controller (App. No. 202311084811)"
     motto     = "Struggle == Development"
@@ -61,33 +61,43 @@ class HarshPanday:
 ## 🚀 Featured Projects
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
+<tr>
+<td width="50%" valign="top">
 
 ### 🤖 Multi-Agent Autonomous Robotics System
 `Python` `C++` `ROS 2` `Jetson` `Pixhawk` `MAVLink`
 
 A centralized control architecture coordinating an **autonomous rover, quadruped robot and UAV**, with real-time connectivity, telemetry, command execution and task coordination across heterogeneous platforms.
 
+</td>
+<td width="50%" valign="top">
 
 ### 🦅 Falcon Air: Autonomous UAV FOD Detection
 `Python` `C++` `YOLO` `LiDAR` `ArduPilot`
 
 UAV-based runway inspection that detects **foreign object debris** using RGB/thermal imaging and LiDAR, with autonomous flight and return-to-launch workflows.
 
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### 🛣️ Autonomous Runway Inspection Rover
 `Python` `Jetson Orin` `Cube Orange+` `LiDAR` `INS/IMU`
 
 Ground robot with synchronized LiDAR, imagery, inertial and geospatial data acquisition for runway inspection and FOD detection.
 
-    
+</td>
+<td width="50%" valign="top">
 
 ### 🧩 VEGA Flight Controller &nbsp;🏅 *Patent Filed*
 `C/C++` `Python` `Embedded Systems`
 
 An indigenous UAV flight-controller platform on the VEGA processor with automatic ESC calibration, encrypted telemetry and onboard display.
 
+</td>
+</tr>
+</table>
 
 ---
 
@@ -156,23 +166,11 @@ An indigenous UAV flight-controller platform on the VEGA processor with automati
 ---
 
 ## 📊 Languages I Use
- 
-<div align="center">
-<!--LANGS_START-->
-| Language | Share | |
-|:--|--:|:--|
-| **Python** | 32.2% | `██████` |
-| **Makefile** | 25.1% | `█████` |
-| **CMake** | 12.5% | `██` |
-| **Shell** | 8.8% | `██` |
-| **JavaScript** | 8.2% | `██` |
-| **Java** | 3.8% | `█` |
-| **C++** | 3.7% | `█` |
-| **C** | 3.4% | `█` |
 
-<sub>Calculated from 12 repositories · auto-updated every 12 hours</sub>
-<!--LANGS_END-->
- 
+<div align="center">
+
+<img src="assets/languages.svg" alt="Languages I use" width="700" />
+
 </div>
 
 ---

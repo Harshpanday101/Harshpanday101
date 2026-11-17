@@ -159,7 +159,18 @@ An indigenous UAV flight-controller platform on the VEGA processor with automati
  
 <div align="center">
 <!--LANGS_START-->
-_Language stats will appear here after the first run of the GitHub Action._
+| Language | Share | |
+|:--|--:|:--|
+| **Python** | 32.2% | `██████` |
+| **Makefile** | 25.1% | `█████` |
+| **CMake** | 12.5% | `██` |
+| **Shell** | 8.8% | `██` |
+| **JavaScript** | 8.2% | `██` |
+| **Java** | 3.8% | `█` |
+| **C++** | 3.7% | `█` |
+| **C** | 3.4% | `█` |
+
+<sub>Calculated from 12 repositories · auto-updated every 12 hours</sub>
 <!--LANGS_END-->
  
 </div>

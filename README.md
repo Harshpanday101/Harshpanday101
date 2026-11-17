@@ -156,11 +156,12 @@ An indigenous UAV flight-controller platform on the VEGA processor with automati
 ---
 
 ## 📊 Languages I Use
-
+ 
 <div align="center">
-
-<img height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harshpanday101&layout=compact&theme=tokyonight&hide_border=true&langs_count=10&cache_seconds=21600" alt="Top languages" />
-
+<!--LANGS_START-->
+_Language stats will appear here after the first run of the GitHub Action._
+<!--LANGS_END-->
+ 
 </div>
 
 ---
